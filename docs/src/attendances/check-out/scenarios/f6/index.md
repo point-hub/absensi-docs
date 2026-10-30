@@ -41,6 +41,6 @@ aside: false
 
 ![alt text](https://absensi-docs.r2.lab.biz.id/attendances/check-out/f5/submit-check-out-button.webp){.potrait-img}
 
-- `THEN` the user sees error notification "Please capture a selfie photo"
+- `THEN` the user sees error notification "Please enable GPS / location services."
 
 ![alt text](https://absensi-docs.r2.lab.biz.id/attendances/check-out/f6/error-notification.webp){.potrait-img}
