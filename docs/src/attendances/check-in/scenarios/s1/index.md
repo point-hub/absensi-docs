@@ -48,7 +48,7 @@ aside: false
 
 ![alt text](https://absensi-docs.r2.lab.biz.id/attendances/check-in/s1/submit-check-in-button.webp){.potrait-img}
 
-- `THEN` the user sees success notification "Sign in success"
+- `THEN` the user sees success notification "Check in success"
 
 ![alt text](https://absensi-docs.r2.lab.biz.id/attendances/check-in/s1/success-notification.webp){.potrait-img}
 
