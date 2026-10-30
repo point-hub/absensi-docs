@@ -2,9 +2,9 @@
 aside: false
 ---
 
-# Scenario 2.3. Update Password
+# Scenario 2.1. Update Password
 
-## 2.3.F3. Update password fails when password is not strong enough.
+## 2.1.F3. Update password fails when password is not strong enough.
 
 - `GIVEN` the user already logged in
 - `GIVEN` the user visits home page

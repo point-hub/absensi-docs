@@ -2,9 +2,9 @@
 aside: false
 ---
 
-# Scenario 2.3. Update Password
+# Scenario 2.1. Update Password
 
-## 2.3.S1. Update password succeeds.
+## 2.1.S1. Update password succeeds.
 
 - `GIVEN` the user already logged in
 - `GIVEN` the user visits home page

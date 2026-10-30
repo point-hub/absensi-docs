@@ -2,9 +2,9 @@
 aside: false
 ---
 
-# Scenario 2.3. Update Password
+# Scenario 2.1. Update Password
 
-## 2.3.F4. Update password fails when password confirmation doesn't match.
+## 2.1.F4. Update password fails when password confirmation doesn't match.
 
 - `GIVEN` the user already logged in
 - `GIVEN` the user visits home page

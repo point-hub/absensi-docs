@@ -2,9 +2,9 @@
 aside: false
 ---
 
-# Scenario 2.4. Update Profile
+# Scenario 2.2. Update Profile
 
-## 2.4.S1. User can update profile successfully.
+## 2.2.S1. User can update profile successfully.
 
 - `GIVEN` the user already logged in
 - `GIVEN` the user visits home page

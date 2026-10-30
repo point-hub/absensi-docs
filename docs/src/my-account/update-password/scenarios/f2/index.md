@@ -2,9 +2,9 @@
 aside: false
 ---
 
-# Scenario 2.3. Update Password
+# Scenario 2.1. Update Password
 
-## 2.3.F2. Update password fails when required fields are empty.
+## 2.1.F2. Update password fails when required fields are empty.
 
 
 - `GIVEN` the user already logged in
