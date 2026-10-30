@@ -1,6 +1,6 @@
 # Signin
 
-The Signin feature allows registered and verified users to securely access the application using their credentials. It ensures that only authorized users can view and manage financial data.
+The Signin feature allows registered and verified users to securely access the application using their credentials.
 
 - Path: `/signin`
 

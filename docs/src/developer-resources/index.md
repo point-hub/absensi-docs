@@ -10,7 +10,7 @@ Explains how data is organized and what kind of data can be stored in the system
 
 ## Source Code Repository
 
-**The Backend Repository** contains the server-side logic of the Pointhub application. It is responsible for processing data, applying accounting rules, generating reports, and managing communication between the database and the frontend.
+**The Backend Repository** contains the server-side logic of the Pointhub application. It is responsible for processing data, applying application rules, generating reports, and managing communication between the database and the frontend.
 
 - [Backend Repository](https://github.com/)
 

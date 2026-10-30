@@ -1,6 +1,6 @@
 # Signup
 
-The Signup feature allows new users to create an account in the application. It is the first step for accessing the system and using its accounting features.
+The Signup feature allows new users to create an account in the application. It is the first step for accessing the system and using its attendance features.
 
 - Path: `/signup`
 

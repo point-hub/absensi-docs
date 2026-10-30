@@ -8,7 +8,6 @@ export default withMermaid({
   description: 'Product Requirement Document',
   cleanUrls: true,
   srcDir: './src',
-  ignoreDeadLinks: true, // Temporary
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png' }],
     ['link', { rel: 'stylesheet', href: 'https://assets.pointhub.net/assets/fontawesome-6/css/all.min.css' }],
