@@ -23,6 +23,6 @@ aside: false
 - `WHEN` the user enters "Budi Santoso" in the user field
 - `WHEN` the user clicks "export" button
 
-![alt text](https://absensi-docs.r2.lab.biz.id/workhour-report/s1/export-button.webp){.potrait-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/workhour-report/s2/export-button.webp){.potrait-img}
 
 - `THEN` the user download csv file
