@@ -30,16 +30,16 @@ const users = [
 
 - `AND` user already receive verify email code from email
 
-![alt text](./signup-verify-email.png){.shadow-img}
+![alt text](./signup-verify-email.png){.potrait-img}
 
 - `AND` user visit verify email page
 - `WHEN` user click "Verify Email" button
 
-![alt text](./verify-email-code.png){.shadow-img}
+![alt text](./verify-email-code.png){.potrait-img}
 
 - `THEN` user see "Your Email Has Been Verified!"
 
-![alt text](./verify-email-success.png){.shadow-img}
+![alt text](./verify-email-success.png){.potrait-img}
 
 ## Database Changes
 

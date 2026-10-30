@@ -6,34 +6,31 @@ aside: false
 
 ## 2.4.S1. User can update profile successfully.
 
-- `GIVEN` user already logged in
-- `AND` user visit home
-- `WHEN` user click top right menu button
+- `GIVEN` the user already logged in
+- `GIVEN` the user visits home page
+- `WHEN` the user clicks "more" button
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/menu.jpg){.shadow-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/more-button.webp){.potrait-img}
 
-- `THEN` user sees the popup menu
-- `WHEN` user click my account button
+- `THEN` the user sees the popup menu
+- `WHEN` the user clicks "my account" button
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/pop-menu.jpg){.shadow-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/my-account-button.webp){.potrait-img}
 
-- `THEN` user redirected to account page
-- `WHEN` user click profile button
+- `THEN` the user is redirected to the "my account" page
+- `WHEN` the user clicks "profile" button
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/menu-profile.jpg){.shadow-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-profile/s1/profile-button.webp){.potrait-img}
 
-- `THEN` user redirected to update profile page
+- `THEN` the user is redirected to the "update profile" page
+- `WHEN` the user changes profile picture
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.1/s1/1.jpg){.shadow-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-profile/s1/photo.webp){.potrait-img}
 
-- `WHEN` user changes profile input from "admin" to "johndoe"
+::: info
+The user can update their profile picture by clicking it and selecting a photo from their device. The profile picture is updated immediately after the photo is selected, without requiring the user to click a save button.
+:::
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.1/s1/2.jpg){.shadow-img}
+- `THEN` the user sees success notification "Update success"
 
-- `WHEN` user click save button
-
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.1/s1/3.jpg){.shadow-img}
-
-- `THEN` user sees success notification "Update success"
-
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.1/s1/4.jpg){.shadow-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-profile/s1/success-notification.webp){.potrait-img}

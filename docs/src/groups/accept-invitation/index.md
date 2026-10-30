@@ -6,4 +6,4 @@ Allows invited users to accept a group invitation.
 
 | 3.7.S Success Scenarios |
 | ---- |
-| [3.7.S1. User can accept a group invitation successfully.](/groups/accept-invitation/scenarios/s1/) |
+| [3.7.S1. Accept invitation succeeds.](/groups/accept-invitation/scenarios/s1/) |

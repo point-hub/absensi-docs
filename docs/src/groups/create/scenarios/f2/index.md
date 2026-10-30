@@ -1,0 +1,36 @@
+---
+aside: false
+---
+
+# Scenario 3.2. Create Group
+
+## 3.1.F2. Create group fails when the group name is empty.
+
+- `GIVEN` the user already logged in
+- `GIVEN` the user visits home page
+- `WHEN` the user clicks "more" button
+
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/more-button.webp){.potrait-img}
+
+- `THEN` the user sees the popup menu
+- `WHEN` the user clicks "groups" button
+
+![alt text](https://absensi-docs.r2.lab.biz.id/groups/create/s1/groups-button.webp){.potrait-img}
+
+- `THEN` the user is redirected to the "groups" page
+- `WHEN` the user clicks "create" button
+
+![alt text](https://absensi-docs.r2.lab.biz.id/groups/create/s1/create-button.webp){.potrait-img}
+
+- `THEN` the user is redirected to the "create group" page
+- `WHEN` the user clicks "save" button
+
+![alt text](https://absensi-docs.r2.lab.biz.id/groups/create/f2/save-button.webp){.potrait-img}
+
+- `THEN` the user sees error notification "Validation failed, Please check the highlighted fields."
+
+![alt text](https://absensi-docs.r2.lab.biz.id/groups/create/f2/error-notification.webp){.potrait-img}
+
+- `THEN` the user sees error message "The name field is required." in the name field
+
+![alt text](https://absensi-docs.r2.lab.biz.id/groups/create/f2/error-message.webp){.potrait-img}

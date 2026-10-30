@@ -4,39 +4,39 @@ aside: false
 
 # Scenario 2.3. Update Password
 
-## 2.3.S1. User can update password successfully.
+## 2.3.S1. Update password succeeds.
 
+- `GIVEN` the user already logged in
+- `GIVEN` the user visits home page
+- `WHEN` the user clicks "more" button
 
-- `GIVEN` user already logged in
-- `AND` user visit home
-- `WHEN` user click top right menu button
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/more-button.webp){.potrait-img}
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/menu.jpg){.shadow-img}
+- `THEN` the user sees the popup menu
+- `WHEN` the user clicks "my account" button
 
-- `THEN` user sees the popup menu
-- `WHEN` user click my account button
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/my-account-button.webp){.potrait-img}
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/pop-menu.jpg){.shadow-img}
+- `THEN` the user is redirected to the "my account" page
+- `WHEN` the user clicks "password" button
 
-- `THEN` user redirected to account page
-- `WHEN` user click password button
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/password-button.webp){.potrait-img}
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/menu-password.jpg){.shadow-img}
+- `THEN` the user is redirected to the "update password" page
+- `WHEN` the user enters "Admin123!" in the current password field 
+- `WHEN` the user enters "Admin123@" in the new password field 
+- `WHEN` the user enters "Admin123@" in the confirm password field 
 
-- `THEN` user redirected to update password page
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/fill-form.webp){.potrait-img}
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.3/s1/1.jpg){.shadow-img}
+- `WHEN` the user clicks "save" button
 
-- `WHEN` user types "Admin123!" in the current password input 
-- `AND` user types "Admin123@" in the new password input 
-- `AND` user types "Admin123@" in the password confirmation input 
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/save-button.webp){.potrait-img}
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.3/s1/2.jpg){.shadow-img}
+- `THEN` the user sees success notification "Update success"
 
-- `WHEN` user click save button
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/update-success-notification.webp){.potrait-img}
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.3/s1/3.jpg){.shadow-img}
+- `THEN` the user sees empty form
 
-- `THEN` user sees success notification "Update success"
-
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.3/s1/4.jpg){.shadow-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/clear-form.webp){.potrait-img}

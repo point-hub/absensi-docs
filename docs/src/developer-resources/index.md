@@ -4,17 +4,9 @@
 
 Explains how data is organized and what kind of data can be stored in the system. It helps keep data clear, consistent, and easy to use.
 
-## Entity Relationship Diagram
-
-An Entity Relationship Diagram (ERD) is a visual representation of the database structure used in the Pointhub application. It shows how data is organized and how different entities (tables) are related to each other.
-
-- [Entity Relationship Diagram](/)
-
-## API Documentation
-
-API Documentation describes how the system’s backend services can be accessed and used. It provides clear instructions on how to interact with the application through HTTP requests and responses.
-
-- [API Documentation](/)
+- [Users Schema](/auth/schema)
+- [Groups Schema](/groups/schema)
+- [Attendances Schema](/attendances/schema)
 
 ## Source Code Repository
 

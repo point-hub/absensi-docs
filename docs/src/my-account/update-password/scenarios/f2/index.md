@@ -4,38 +4,36 @@ aside: false
 
 # Scenario 2.3. Update Password
 
-## 2.3.F2. Password update fails when required fields are empty.
+## 2.3.F2. Update password fails when required fields are empty.
 
-- `GIVEN` user already logged in
-- `AND` user visit home
-- `WHEN` user click top right menu button
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/menu.jpg){.shadow-img}
+- `GIVEN` the user already logged in
+- `GIVEN` the user visits home page
+- `WHEN` the user clicks "more" button
 
-- `THEN` user sees the popup menu
-- `WHEN` user click my account button
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/more-button.webp){.potrait-img}
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/pop-menu.jpg){.shadow-img}
+- `THEN` the user sees the popup menu
+- `WHEN` the user clicks "my account" button
 
-- `THEN` user redirected to account page
-- `WHEN` user click password button
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/my-account-button.webp){.potrait-img}
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/menu-password.jpg){.shadow-img}
+- `THEN` the user is redirected to the "my account" page
+- `WHEN` the user clicks "password" button
 
-- `THEN` user redirected to update password page
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/password-button.webp){.potrait-img}
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.3/s1/1.jpg){.shadow-img}
+- `THEN` the user is redirected to the "update password" page
+- `WHEN` the user clicks "save" button
 
-- `WHEN` user clicks save button
-
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.3/f2/1.jpg){.shadow-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/f2/save-button.webp){.potrait-img}
 
 - `THEN` user sees error notification "Validation failed, Please check the highlighted fields."
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.3/f2/2.jpg){.shadow-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/f2/error-notification.webp){.potrait-img}
 
 - `THEN` user sees error message "The current password field is required."
-- `AND` user sees error message "The new password field is required."
-- `AND` user sees error message "The password confirmation field is required."
+- `THEN` user sees error message "The new password field is required."
+- `THEN` user sees error message "The confirm password field is required."
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.3/f2/3.jpg){.shadow-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/f2/error-message.webp){.potrait-img}

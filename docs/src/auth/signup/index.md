@@ -8,12 +8,12 @@ The Signup feature allows new users to create an account in the application. It 
 
 | 1.1.S Success Scenarios |
 | ---- |
-| [1.1.S1. User can sign up successfully.](/auth/signup/scenarios/s1/) |
+| [1.1.S1. Signup succeeds.](/auth/signup/scenarios/s1/) |
 
 | 1.1.F Failed Scenarios |
 | --- |
-| [1.1.F1. Sign up fails when required fields are empty.](/auth/signup/scenarios/f1/) |
-| [1.1.F2. Sign up fails when username already exists.](/auth/signup/scenarios/f2/) |
-| [1.1.F3. Sign up fails when email already exists.](/auth/signup/scenarios/f3/) |
-| [1.1.F4. Sign up fails when password is not strong enough.](/auth/signup/scenarios/f4/) |
-| [1.1.F5. Sign up fails when password confirmation does not match.](/auth/signup/scenarios/f5/) |
+| [1.1.F1. Signup fails when required fields are empty.](/auth/signup/scenarios/f1/) |
+| [1.1.F2. Signup fails when username already exists.](/auth/signup/scenarios/f2/) |
+| [1.1.F3. Signup fails when email already exists.](/auth/signup/scenarios/f3/) |
+| [1.1.F4. Signup fails when password is not strong enough.](/auth/signup/scenarios/f4/) |
+| [1.1.F5. Signup fails when password confirmation doesn't match.](/auth/signup/scenarios/f5/) |

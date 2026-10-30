@@ -44,6 +44,7 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'Introduction', link: '/' },
         { text: 'Sitemap', link: '/sitemap' },
+        { text: 'Page Structure', link: '/page-structure' },
       ],
     },
     {
@@ -68,8 +69,6 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           items: [
             { text: 'About', link: '/my-account/about' },
-            { text: 'Update Username', link: '/my-account/update-username' },
-            { text: 'Update Email', link: '/my-account/update-email' },
             { text: 'Update Password', link: '/my-account/update-password' },
             { text: 'Update Profile', link: '/my-account/update-profile' },
           ],
@@ -80,11 +79,11 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
           items: [
             { text: 'About', link: '/groups/about' },
             { text: 'Schema', link: '/groups/schema' },
-            { text: 'Create', link: '/groups/create' },
-            { text: 'List', link: '/groups/list' },
-            { text: 'Read', link: '/groups/read' },
-            { text: 'Update', link: '/groups/update' },
-            { text: 'Delete', link: '/groups/delete' },
+            { text: 'Create Group', link: '/groups/create' },
+            { text: 'List Groups', link: '/groups/list' },
+            { text: 'Read Group', link: '/groups/read' },
+            { text: 'Update Group', link: '/groups/update' },
+            { text: 'Delete Group', link: '/groups/delete' },
             { text: 'Invite User', link: '/groups/invite-user' },
             { text: 'Accept Invitation', link: '/groups/accept-invitation' },
             { text: 'Reject Invitation', link: '/groups/reject-invitation' },
@@ -101,6 +100,7 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
             { text: 'Check Out', link: '/attendances/check-out' },
             { text: 'Break Start', link: '/attendances/break-start' },
             { text: 'Break End', link: '/attendances/break-end' },
+            { text: 'List Attendances', link: '/attendances/list' },
           ],
         },
         {
@@ -108,8 +108,8 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           items: [
             { text: 'About', link: '/workhour-report/about' },
-            { text: 'Read', link: '/workhour-report/read' },
-            { text: 'Export', link: '/workhour-report/export' },
+            { text: 'Read Workhour Report', link: '/workhour-report/read' },
+            { text: 'Export Workhour Report', link: '/workhour-report/export' },
           ],
         },
         {
@@ -117,8 +117,8 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
           collapsed: true,
           items: [
             { text: 'About', link: '/attendance-report/about' },
-            { text: 'Read', link: '/attendance-report/read' },
-            { text: 'Export', link: '/attendance-report/export' },
+            { text: 'Read Attendance Report', link: '/attendance-report/read' },
+            { text: 'Export Attendance Report', link: '/attendance-report/export' },
           ],
         },
       ],

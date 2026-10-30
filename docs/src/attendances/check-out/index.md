@@ -1,6 +1,6 @@
 # Check Out
 
-Records the end of an employee's working day.
+Records the end of an user's working day.
 
 - Path: `/check-out`
 
@@ -8,11 +8,11 @@ Records the end of an employee's working day.
 
 | 4.2.S Success Scenarios |
 | ---- |
-| [4.2.S1. User can check out successfully.](/attendances/check-out/scenarios/s1/) |
+| [4.2.S1. Check out succeeds.](/attendances/check-out/scenarios/s1/) |
 
 | 4.2.F Failed Scenarios |
 | ---- |
-| [4.2.F1. Check out fails when user is not authenticated.](/groups/read/scenarios/f1/) |
+| [4.2.F1. Check out fails when the user is not authenticated.](/groups/read/scenarios/f1/) |
 | [4.2.F2. Check out fails when the user has not checked in.](/attendances/check-out/scenarios/f2/) |
 | [4.2.F3. Check out fails when the user has already checked out.](/attendances/check-out/scenarios/f3/) |
 | [4.2.F4. Check out fails when the user has an active break that has not ended.](/attendances/check-out/scenarios/f4/) |

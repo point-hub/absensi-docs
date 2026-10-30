@@ -1,10 +1,14 @@
-# About Attendances
+# Attendances
 
-The Attendance feature allows users to record their daily work activities by checking in when they start work, checking out when they finish work, and recording break start and break end times. Each attendance action can include a photo, location information, and notes to provide supporting details. This feature helps users maintain accurate attendance records and track their working hours and breaks.
+The Attendance feature allows users to record their daily work activities by checking in when they start work, checking out when they finish work, and recording break start and break end times. 
 
-![alt text](https://absensi-docs.r2.lab.biz.id/attendances/attendance-workflow.png)
+Each attendance action can include a photo, location information, and notes to provide supporting details. This feature helps users maintain accurate attendance records and track their working hours and breaks.
 
-**Rules**
+## Workflow
+
+![alt text](https://absensi-docs.r2.lab.biz.id/attendances/attendance-workflow.webp){.landscape-img}
+
+## Rules
 
 - `check-in` and `check-out` can each be performed only once per day.
 - `check-out` can only be performed if the user has already checked in on the same day.
@@ -19,7 +23,8 @@ The Attendance feature allows users to record their daily work activities by che
 
 | Feature | Description |
 | ------- | ----------- |
-| [Check In](/attendances/check-in/) | Records the user's check-in time, location, photo, and optional notes. |
-| [Check Out](/attendances/check-out/) | Records the user's check-out time, location, photo, and optional notes. |
-| [Break Start](/attendances/break-start/) | Records the start of a break, including the time, location, photo, and optional notes. |
-| [Break End](/attendances/break-end/) | Records the end of a break, including the time, location, photo, and optional notes. |
+| [4.1. Check In](/attendances/check-in/) | Records the user's check-in time, location, photo, and optional notes. |
+| [4.2. Check Out](/attendances/check-out/) | Records the user's check-out time, location, photo, and optional notes. |
+| [4.3. Break Start](/attendances/break-start/) | Records the start of a break, including the time, location, photo, and optional notes. |
+| [4.4. Break End](/attendances/break-end/) | Records the end of a break, including the time, location, photo, and optional notes. |
+| [4.5. List Attendances](/attendances/list/) | Displays attendance records for homepage. |

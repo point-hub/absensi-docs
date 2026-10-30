@@ -4,31 +4,28 @@ aside: false
 
 # Scenario 2.3. Update Password
 
-## 2.3.F4. Password update fails when password confirmation does not match.
+## 2.3.F4. Update password fails when password confirmation doesn't match.
 
-- `GIVEN` user already logged in
-- `AND` user visit home
-- `WHEN` user click top right menu button
+- `GIVEN` the user already logged in
+- `GIVEN` the user visits home page
+- `WHEN` the user clicks "more" button
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/menu.jpg){.shadow-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/more-button.webp){.potrait-img}
 
-- `THEN` user sees the popup menu
-- `WHEN` user click my account button
+- `THEN` the user sees the popup menu
+- `WHEN` the user clicks "my account" button
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/pop-menu.jpg){.shadow-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/my-account-button.webp){.potrait-img}
 
-- `THEN` user redirected to account page
-- `WHEN` user click password button
+- `THEN` the user is redirected to the "my account" page
+- `WHEN` the user clicks "password" button
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/menu-password.jpg){.shadow-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/s1/password-button.webp){.potrait-img}
 
-- `THEN` user redirected to update password page
-
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.3/s1/1.jpg){.shadow-img}
-
+- `THEN` the user is redirected to the "update password" page
 - `WHEN` user types "Admin123!" in the current password field
-- `AND` user types "Admin123@" in the new password field
-- `AND` user types "Admin123#" in the password confirmation field
-- `THEN` user sees error message "Password do not match"
+- `WHEN` user types "Admin123@" in the new password field
+- `WHEN` user types "ZzZzZ123#" in the confirm password field
+- `THEN` user sees error message "Password doesn't match"
 
-![alt text](https://property-matchmaking-docs.r2.lab.biz.id/admin/my-account/1.2.3/f4/1.jpg){.shadow-img}
+![alt text](https://absensi-docs.r2.lab.biz.id/my-account/update-password/f4/fill-form.webp){.potrait-img}

@@ -4,11 +4,11 @@ aside: false
 
 # Scenario 1.1. Signup
 
-## 1.1.S1. User can sign up successfully.
+## 1.1.S1. Signup succeeds.
 
 - `GIVEN` user visit signup page
 
-![alt text](./signup.png){.shadow-img}
+![alt text](./signup.png){.potrait-img}
 
 - `WHEN` user type "johndoe" into input "username"
 - `AND` user type "johndoe@example.com" into input "email"
@@ -17,7 +17,7 @@ aside: false
 - `AND` user click checkbox "accept-terms-and-privacy"
 - `AND` user click button "sign-up"
 
-![alt text](./signup-filled.png){.shadow-img}
+![alt text](./signup-filled.png){.potrait-img}
 
 - `THEN` user see "Please verify your email"
 - `AND` user see "You're almost there! We sent an email to johndoe@example.com"
@@ -32,7 +32,7 @@ Just click on the link in that email to complete your signup.
 If you don't see it, you may wait a few minutes for the email to arrive or check your spam folder.
 :::
 
-![alt text](./signup-success.png){.shadow-img}
+![alt text](./signup-success.png){.potrait-img}
 
 `THEN` user receive an email to verify email.
 
@@ -56,4 +56,4 @@ Best Regards,
 
 Pointhub
 :::
-![alt text](./signup-verify-email.png){.shadow-img}
+![alt text](./signup-verify-email.png){.potrait-img}

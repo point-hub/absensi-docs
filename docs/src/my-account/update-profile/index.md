@@ -1,17 +1,20 @@
 # Update Profile
 
-The Update Profile page allows users to change their display name and profile picture within the application.
+The Update Profile page allows users to change their profile picture within the application.
 
 - Path: `/my-account/profile`
 
+## Notes
+
+- The user can update only their profile picture.
+- The name, username, and email fields are not editable.
+
 ## Scenarios
 
-| 2.4.S Success Scenarios |
+| 2.2.S Success Scenarios |
 | ---- |
-| [2.4.S1. User can update profile successfully.](/my-account/update-profile/scenarios/s1/) |
+| [2.2.S1. User can update profile successfully.](/my-account/update-profile/scenarios/s1/) |
 
-| 2.4.F Failed Scenarios |
+| 2.2.F Failed Scenarios |
 | ---- |
-| [2.4.F1. Profile update fails when user is not authenticated.](/my-account/update-profile/scenarios/f1/) |
-| [2.4.F2. Profile update fails when required fields are empty.](/my-account/update-profile/scenarios/f2/) |
-| [2.4.F3. Profile update fails when profile already exists.](/my-account/update-profile/scenarios/f3/) |
+| [2.2.F1. Profile update fails when the user is not authenticated.](/my-account/update-profile/scenarios/f1/) |

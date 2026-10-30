@@ -6,4 +6,4 @@ Allows invited users to reject a group invitation.
 
 | 3.8.S Success Scenarios |
 | ---- |
-| [3.8.S1. User can request to join a group successfully.](/groups/reject-invitation/scenarios/s1/) |
+| [3.8.S1. Reject invitation succeeds.](/groups/reject-invitation/scenarios/s1/) |
