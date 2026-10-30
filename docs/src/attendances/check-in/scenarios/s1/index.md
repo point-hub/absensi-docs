@@ -4,7 +4,7 @@ aside: false
 
 # Scenario 4.1. Check In
 
-## 4.1.F2. Check in fails when the user has already checked in on the same day.
+## 4.1.S1. Check in succeeds.
 
 - `GIVEN` the user already logged in
 - `GIVEN` the user visits home page
