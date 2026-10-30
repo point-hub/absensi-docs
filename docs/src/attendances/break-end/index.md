@@ -12,7 +12,7 @@ Records an user's return to the workplace after a temporary absence.
 
 | 4.4.F Failed Scenarios |
 | ---- |
-| [4.4.F1. Break end fails when the user is not authenticated.](/groups/read/scenarios/f1/) |
+| [4.4.F1. Break end fails when the user is not authenticated.](/attendances/break-end/scenarios/f1/) |
 | [4.4.F2. Break end fails when there is no active break start.](/attendances/break-end/scenarios/f2/) |
 | [4.4.F3. Break end fails when the user has not captured a photo.](/attendances/break-start/scenarios/f3/) |
 | [4.4.F4. Break end fails when the user's GPS latitude and longitude cannot be determined.](/attendances/break-start/scenarios/f4/) |
