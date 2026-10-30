@@ -219,7 +219,7 @@ Displays all groups the user owns or has joined.
 
 | 3.2.F Failed Scenarios |
 | ---- |
-| [3.2.F1. List groups fails when the user is not authenticated.](/groups/read/scenarios/f1/) |
+| [3.2.F1. List groups fails when the user is not authenticated.](/groups/list/scenarios/f1/) |
 
 ### 3.3. Read Group
 
@@ -254,7 +254,7 @@ Allows group owners to update group information.
 | ---- |
 | [3.4.F1. Update group fails when the user is not authenticated.](/groups/update/scenarios/f1/) |
 | [3.4.F2. Update group fails when the user is not a group owner.](/groups/update/scenarios/f2/) |
-| [3.1.F3. Update group fails when the group name is empty.](/groups/update/scenarios/f3/) |
+| [3.4.F3. Update group fails when the group name is empty.](/groups/update/scenarios/f3/) |
 | [3.4.F4. Update group fails when the group name already exists.](/groups/update/scenarios/f4/) |
 
 ### 3.5. Delete Group

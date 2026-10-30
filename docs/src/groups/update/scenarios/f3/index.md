@@ -4,7 +4,7 @@ aside: false
 
 # Scenario 3.4. Update Group
 
-## 3.1.F3. Update group fails when the group name is empty.
+## 3.4.F3. Update group fails when the group name is empty.
 
 - `GIVEN` the user already logged in
 - `GIVEN` the user visits home page

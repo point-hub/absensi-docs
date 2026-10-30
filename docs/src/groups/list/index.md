@@ -13,4 +13,4 @@ Displays all groups the user owns or has joined.
 
 | 3.2.F Failed Scenarios |
 | ---- |
-| [3.2.F1. List groups fails when the user is not authenticated.](/groups/read/scenarios/f1/) |
+| [3.2.F1. List groups fails when the user is not authenticated.](/groups/list/scenarios/f1/) |
