@@ -36,7 +36,7 @@ aside: false
 
 ![alt text](https://absensi-docs.r2.lab.biz.id/request-permission-location.webp){.potrait-img}
 
-- `THEN` the user sees number from lat and long text
+- `THEN` the user sees number from latitude and longitude text
 
 ![alt text](https://absensi-docs.r2.lab.biz.id/attendances/check-in/s1/lat-long.webp){.potrait-img}
 
