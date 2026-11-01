@@ -1,0 +1,94 @@
+[
+  {
+    "text": "Documentation",
+    "items": [
+      { "text": "Introduction", "link": "/v1.0/" },
+      { "text": "Sitemap", "link": "/v1.0/sitemap" },
+      { "text": "Page Structure", "link": "/v1.0/page-structure" }
+    ]
+  },
+  {
+    "text": "Features",
+    "items": [
+      {
+        "text": "Auth", 
+        "collapsed": true,
+        "items": [
+          { "text": "About", "link": "/v1.0/auth/about" },
+          { "text": "Schema", "link": "/v1.0/auth/schema" },
+          { "text": "Signup", "link": "/v1.0/auth/signup" },
+          { "text": "Verify Email", "link": "/v1.0/auth/verify-email" },
+          { "text": "Signin", "link": "/v1.0/auth/signin" },
+          { "text": "Signout", "link": "/v1.0/auth/signout" },
+          { "text": "Forgot Password", "link": "/v1.0/auth/forgot-password" },
+          { "text": "Reset Password", "link": "/v1.0/auth/reset-password" }
+        ]
+      },
+      {
+        "text": "My Account",
+        "collapsed": true,
+        "items": [
+          { "text": "About", "link": "/v1.0/my-account/about" },
+          { "text": "Update Password", "link": "/v1.0/my-account/update-password" },
+          { "text": "Update Profile", "link": "/v1.0/my-account/update-profile" }
+        ]
+      },
+      {
+        "text": "Groups",
+        "collapsed": true,
+        "items": [
+          { "text": "About", "link": "/v1.0/groups/about" },
+          { "text": "Schema", "link": "/v1.0/groups/schema" },
+          { "text": "Create Group", "link": "/v1.0/groups/create" },
+          { "text": "List Groups", "link": "/v1.0/groups/list" },
+          { "text": "Read Group", "link": "/v1.0/groups/read" },
+          { "text": "Update Group", "link": "/v1.0/groups/update" },
+          { "text": "Delete Group", "link": "/v1.0/groups/delete" },
+          { "text": "Invite User", "link": "/v1.0/groups/invite-user" },
+          { "text": "Accept Invitation", "link": "/v1.0/groups/accept-invitation" },
+          { "text": "Reject Invitation", "link": "/v1.0/groups/reject-invitation" },
+          { "text": "Remove User", "link": "/v1.0/groups/remove-user" }
+        ]
+      },
+      {
+        "text": "Attendances",
+        "collapsed": true,
+        "items": [
+          { "text": "About", "link": "/v1.0/attendances/about" },
+          { "text": "Schema", "link": "/v1.0/attendances/schema" },
+          { "text": "Check In", "link": "/v1.0/attendances/check-in" },
+          { "text": "Check Out", "link": "/v1.0/attendances/check-out" },
+          { "text": "Break Start", "link": "/v1.0/attendances/break-start" },
+          { "text": "Break End", "link": "/v1.0/attendances/break-end" },
+          { "text": "List Attendances", "link": "/v1.0/attendances/list" }
+        ]
+      },
+      {
+        "text": "Workhour Report",
+        "collapsed": true,
+        "items": [
+          { "text": "About", "link": "/v1.0/workhour-report/about" },
+          { "text": "Read Workhour Report", "link": "/v1.0/workhour-report/read" },
+          { "text": "Export Workhour Report", "link": "/v1.0/workhour-report/export" }
+        ]
+      },
+      {
+        "text": "Attendance Report",
+        "collapsed": true,
+        "items": [
+          { "text": "About", "link": "/v1.0/attendance-report/about" },
+          { "text": "Read Attendance Report", "link": "/v1.0/attendance-report/read" },
+          { "text": "Export Attendance Report", "link": "/v1.0/attendance-report/export" }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Resources",
+    "items": [
+      { "text": "Architecture Decision Records", "link": "/v1.0/architecture-decision-records/" },
+      { "text": "Development Roadmap", "link": "/v1.0/development-roadmap/" },
+      { "text": "Developer Resources", "link": "/v1.0/developer-resources/" }
+    ]
+  }
+]

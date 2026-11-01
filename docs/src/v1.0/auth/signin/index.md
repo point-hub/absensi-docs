@@ -1,0 +1,15 @@
+# Signin
+
+The Signin feature allows registered and verified users to securely access the application using their credentials.
+
+- Path: `/signin`
+
+## Scenarios
+
+| 1.3.S Success Scenarios |
+| ---- |
+| [1.3.S1. Signin succeeds.](./scenarios/s1/) |
+
+| 1.3.F Failed Scenarios |
+| ---- |
+| [1.3.F1. Signin fails when credentials doesn't match.](./scenarios/f1/) |

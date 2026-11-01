@@ -1,134 +1,111 @@
-import { type DefaultTheme } from 'vitepress'
-import { withMermaid } from 'vitepress-plugin-mermaid'
 
-// https://vitepress.dev/reference/site-config
+import { withMermaid } from 'vitepress-plugin-mermaid'
+import fs from 'node:fs'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+import { getSidebar } from './sidebars'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
+
+const srcAbsoluteDir = path.resolve(__dirname, './src')
+const sidebarAbsoluteDir = path.resolve(__dirname, './sidebars')
+
+// Detect available documentation versions.
+const versions: string[] = fs.existsSync(srcAbsoluteDir)
+  ? fs.readdirSync(srcAbsoluteDir).filter((file) => {
+      const fullPath = path.join(srcAbsoluteDir, file)
+
+      return (
+        fs.statSync(fullPath).isDirectory() &&
+        /^v\d+\.\d+$/.test(file)
+      )
+    })
+  : []
+
+// Sort versions using semantic version numbers.
+versions.sort((a, b) => {
+  const versionA = a.slice(1).split('.').map(Number)
+  const versionB = b.slice(1).split('.').map(Number)
+
+  for (let i = 0; i < 3; i++) {
+    if (versionA[i] !== versionB[i]) {
+      return versionB[i] - versionA[i]
+    }
+  }
+
+  return 0
+})
+
+// Determine the latest available version.
+const latestVersion = versions[0] ?? 'v1.0'
+
+// Load individual sidebar configurations.
+const dynamicSidebar = getSidebar(
+  versions,
+  sidebarAbsoluteDir,
+)
+
+// Default sidebar for the root documentation.
+dynamicSidebar['/'] = [
+  {
+    text: 'Documentation',
+    items: [
+      {
+        text: 'Introduction',
+        link: `/${latestVersion}/`,
+      },
+    ],
+  },
+]
+
 export default withMermaid({
   lang: 'en-US',
-  title: 'Absensi',
-  description: 'Product Requirement Document',
+  title: 'Developer Portal',
+  description: 'Template for Web documentation',
   cleanUrls: true,
   srcDir: './src',
+
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon-32x32.png' }],
-    ['link', { rel: 'stylesheet', href: 'https://assets.pointhub.net/assets/fontawesome-6/css/all.min.css' }],
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon-32x32.png',
+      },
+    ],
+    ['link', { rel: 'stylesheet', href: 'https://pointhub.net' }],
   ],
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     logo: '/icon.png',
-    nav: nav(),
-    sidebar: {
-      '/': { base: '', items: sidebarDocs() },
-    },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/point-hub/absensi-docs' }],
+
+    nav: [
+      { text: 'Home', link: '/v1.0/' },
+      {
+        component: 'VersionSwitcher',
+        props: {
+          versions,
+          latestVersion,
+        },
+      },
+    ],
+
+    sidebar: dynamicSidebar,
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com' },
+    ],
+
     search: {
       provider: 'local',
     },
+
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2026 Pointhub',
-    },
+    }
   },
 })
-
-function nav(): DefaultTheme.NavItem[] {
-  return [
-    { text: 'Home', link: '/' },
-  ]
-}
-
-function sidebarDocs(): DefaultTheme.SidebarItem[] {
-  return [
-    {
-      text: 'Documentation',
-      items: [
-        { text: 'Introduction', link: '/' },
-        { text: 'Sitemap', link: '/sitemap' },
-        { text: 'Page Structure', link: '/page-structure' },
-      ],
-    },
-    {
-      text: 'Features',
-      items: [
-        {
-          text: 'Auth', 
-          collapsed: true,
-          items: [
-            { text: 'About', link: '/auth/about' },
-            { text: 'Schema', link: '/auth/schema' },
-            { text: 'Signup', link: '/auth/signup' },
-            { text: 'Verify Email', link: '/auth/verify-email' },
-            { text: 'Signin', link: '/auth/signin' },
-            { text: 'Signout', link: '/auth/signout' },
-            { text: 'Forgot Password', link: '/auth/forgot-password' },
-            { text: 'Reset Password', link: '/auth/reset-password' },
-          ],
-        },
-        {
-          text: 'My Account',
-          collapsed: true,
-          items: [
-            { text: 'About', link: '/my-account/about' },
-            { text: 'Update Password', link: '/my-account/update-password' },
-            { text: 'Update Profile', link: '/my-account/update-profile' },
-          ],
-        },
-        {
-          text: 'Groups',
-          collapsed: true,
-          items: [
-            { text: 'About', link: '/groups/about' },
-            { text: 'Schema', link: '/groups/schema' },
-            { text: 'Create Group', link: '/groups/create' },
-            { text: 'List Groups', link: '/groups/list' },
-            { text: 'Read Group', link: '/groups/read' },
-            { text: 'Update Group', link: '/groups/update' },
-            { text: 'Delete Group', link: '/groups/delete' },
-            { text: 'Invite User', link: '/groups/invite-user' },
-            { text: 'Accept Invitation', link: '/groups/accept-invitation' },
-            { text: 'Reject Invitation', link: '/groups/reject-invitation' },
-            { text: 'Remove User', link: '/groups/remove-user' },
-          ],
-        },
-        {
-          text: 'Attendances',
-          collapsed: true,
-          items: [
-            { text: 'About', link: '/attendances/about' },
-            { text: 'Schema', link: '/attendances/schema' },
-            { text: 'Check In', link: '/attendances/check-in' },
-            { text: 'Check Out', link: '/attendances/check-out' },
-            { text: 'Break Start', link: '/attendances/break-start' },
-            { text: 'Break End', link: '/attendances/break-end' },
-            { text: 'List Attendances', link: '/attendances/list' },
-          ],
-        },
-        {
-          text: 'Workhour Report',
-          collapsed: true,
-          items: [
-            { text: 'About', link: '/workhour-report/about' },
-            { text: 'Read Workhour Report', link: '/workhour-report/read' },
-            { text: 'Export Workhour Report', link: '/workhour-report/export' },
-          ],
-        },
-        {
-          text: 'Attendance Report',
-          collapsed: true,
-          items: [
-            { text: 'About', link: '/attendance-report/about' },
-            { text: 'Read Attendance Report', link: '/attendance-report/read' },
-            { text: 'Export Attendance Report', link: '/attendance-report/export' },
-          ],
-        },
-      ],
-    },
-    {
-      text: 'Resources',
-      items: [
-        { text: 'Architecture Decision Records', link: '/architecture-decision-records/' },
-        { text: 'Development Roadmap', link: '/development-roadmap/' },
-        { text: 'Developer Resources', link: '/developer-resources/' },
-      ],
-    },
-  ]
-}
