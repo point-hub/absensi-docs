@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Verify Email'
+  link: '../verify-email'
+next:
+  text: 'Signout'
+  link: '../signout'
+---
+
 # Signin
 
 The Signin feature allows registered and verified users to securely access the application using their credentials.

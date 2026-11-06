@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Delete Group'
+  link: '../delete'
+next:
+  text: 'Accept Invitation'
+  link: '../accept-invitation'
+---
+
 # Invite User
 
 Invites users to join a group.

@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Signout'
+  link: '../signout'
+next:
+  text: 'Reset Password'
+  link: '../reset-password'
+---
+
 # Forgot Password
 
 The Forgot Password feature allows users to request a password reset if they can no longer remember their account password. It provides a secure way to regain access without contacting system administrators.

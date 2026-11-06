@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Workhour Report'
+  link: '../about'
+next:
+  text: 'Export Workhour Report'
+  link: '../export'
+---
+
 # Read Workhour Report
 
 Allows users to read workhour report

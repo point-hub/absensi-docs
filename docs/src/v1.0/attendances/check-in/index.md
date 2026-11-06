@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Schema'
+  link: '../schema'
+next:
+  text: 'Check Out'
+  link: '../check-out'
+---
+
 # Check In
 
 Records the start of an user's working day.

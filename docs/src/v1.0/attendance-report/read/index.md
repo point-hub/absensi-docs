@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Attendance Report'
+  link: '../about'
+next:
+  text: 'Export Attendance Report'
+  link: '../export'
+---
+
 # Read Attendance Report
 
 Allows users to read attendance report

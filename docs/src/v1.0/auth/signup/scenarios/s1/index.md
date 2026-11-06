@@ -1,5 +1,11 @@
 ---
 aside: false
+prev:
+  text: 'Signup'
+  link: '../../'
+next:
+  text: 'Signup | Failed 1'
+  link: '../f1'
 ---
 
 # Scenario 1.1. Signup

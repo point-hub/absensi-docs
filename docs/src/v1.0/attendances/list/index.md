@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Break End'
+  link: '../break-end'
+next:
+  text: 'Workhour Report'
+  link: '/v1.0/workhour-report/about'
+---
+
 # List Attendances
 
 Displays attendance records for homepage.

@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Update Group'
+  link: '../update'
+next:
+  text: 'Invite User'
+  link: '../invite-user'
+---
+
 # Delete Group
 
 Allows group owners to permanently delete a group.

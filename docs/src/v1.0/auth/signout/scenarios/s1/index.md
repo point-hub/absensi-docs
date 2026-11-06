@@ -1,5 +1,11 @@
 ---
 aside: false
+prev:
+  text: 'Signout'
+  link: '../../'
+next:
+  text: 'Signout'
+  link: '../../'
 ---
 
 # Scenario 1.4. Signout

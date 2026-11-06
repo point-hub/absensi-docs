@@ -1,5 +1,11 @@
 ---
 aside: false
+prev:
+  text: 'Signin | Success 1'
+  link: '../../s1'
+next:
+  text: 'Signin'
+  link: '../../'
 ---
 
 # Scenario 1.3. Signin

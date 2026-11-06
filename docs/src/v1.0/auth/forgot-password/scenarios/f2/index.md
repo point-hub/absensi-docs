@@ -1,5 +1,11 @@
 ---
 aside: false
+prev:
+  text: 'Forgot Password | Failed 1'
+  link: '../f1'
+next:
+  text: 'Forgot Password'
+  link: '../../'
 ---
 
 # Scenario 1.5. Forgot Password

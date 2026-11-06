@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'My Account'
+  link: '../about'
+next:
+  text: 'Update Profile'
+  link: '../update-profile'
+---
+
 # Update Password
 
 The Update Password page allows users to change their current password while logged into the application. This feature helps maintain account security and gives users control over their login credentials.

@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Signup'
+  link: '../signup'
+next:
+  text: 'Signin'
+  link: '../signin'
+---
+
 # Verify Email
 
 The Verify Email feature confirms that the email address provided during signup belongs to the user. This process helps ensure account security and prevents the use of invalid or unauthorized email addresses.

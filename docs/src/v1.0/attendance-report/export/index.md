@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Read Attendance Report'
+  link: '../read'
+next:
+  text: 'Architecture Decision Record'
+  link: '/v1.0/architecture-decision-records'
+---
+
 # Export Attendance Report
 
 Allows users to export the report.

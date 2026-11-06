@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Schema'
+  link: '../schema'
+next:
+  text: 'List Groups'
+  link: '../list'
+---
+
 # Create Group
 
 Allows users to create a new group.

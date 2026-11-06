@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Forgot Password'
+  link: '../forgot-password'
+next:
+  text: 'My Account'
+  link: '/v1.0/my-account/about'
+---
+
 # Reset Password
 
 The Reset Password feature allows users to create a new password after requesting a password reset through the Forgot Password process. It ensures secure account recovery while protecting against unauthorized access.

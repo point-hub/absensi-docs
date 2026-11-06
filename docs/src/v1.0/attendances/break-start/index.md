@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Check Out'
+  link: '../check-out'
+next:
+  text: 'Break End'
+  link: '../break-end'
+---
+
 # Break Start
 
 Records an user leaving the workplace during working hours.

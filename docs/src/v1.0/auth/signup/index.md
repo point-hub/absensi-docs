@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Schema'
+  link: '../schema'
+next:
+  text: 'Verify Email'
+  link: '../verify-email'
+---
+
 # Signup
 
 The Signup feature allows new users to create an account in the application. It is the first step for accessing the system and using its attendance features.

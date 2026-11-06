@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Break Start'
+  link: '../break-start'
+next:
+  text: 'List Attendances'
+  link: '../list'
+---
+
 # Break End
 
 Records an user's return to the workplace after a temporary absence.

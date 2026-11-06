@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Reject Invitation'
+  link: '../reject-invitation'
+next:
+  text: 'Attendances'
+  link: '/v1.0/attendances/about'
+---
+
 # Remove User
 
 Allows group owner to remove members from a group.

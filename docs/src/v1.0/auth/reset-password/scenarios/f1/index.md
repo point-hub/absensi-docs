@@ -1,5 +1,11 @@
 ---
 aside: false
+prev:
+  text: 'Reset Password | Success 1'
+  link: '../s1'
+next:
+  text: 'Reset Password | Failed 2'
+  link: '../f2'
 ---
 
 # Scenario 1.6. Reset Password

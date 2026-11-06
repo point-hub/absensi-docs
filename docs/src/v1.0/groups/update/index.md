@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Read Group'
+  link: '../read'
+next:
+  text: 'Delete Group'
+  link: '../delete'
+---
+
 # Update Group
 
 Allows group owners to update group information.

@@ -1,5 +1,11 @@
 ---
 aside: false
+prev:
+  text: 'Verify Email'
+  link: '../../'
+next:
+  text: 'Verify Email | Failed 1'
+  link: '../f1'
 ---
 
 # Scenario 1.2. Verify Email

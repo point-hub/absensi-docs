@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Read Workhour Report'
+  link: '../read'
+next:
+  text: 'Attendance Report'
+  link: '/v1.0/attendance-report/about'
+---
+
 # Export Workhour Report
 
 Allows users to export workhour report.

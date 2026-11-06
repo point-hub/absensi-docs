@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Check In'
+  link: '../check-in'
+next:
+  text: 'Break Start'
+  link: '../break-start'
+---
+
 # Check Out
 
 Records the end of an user's working day.

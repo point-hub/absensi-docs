@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Update Password'
+  link: '../update-password'
+next:
+  text: 'Groups'
+  link: '/v1.0/groups/about'
+---
+
 # Update Profile
 
 The Update Profile page allows users to change their profile picture within the application.

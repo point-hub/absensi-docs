@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Create Group'
+  link: '../create'
+next:
+  text: 'Read Group'
+  link: '../read'
+---
+
 # List Groups
 
 Displays all groups the user owns or has joined.

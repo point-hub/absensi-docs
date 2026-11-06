@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'List Groups'
+  link: '../list'
+next:
+  text: 'Update Group'
+  link: '../update'
+---
+
 # Read Group
 
 Displays group information and members.

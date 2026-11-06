@@ -1,3 +1,12 @@
+---
+prev:
+  text: 'Accept Invitation'
+  link: '../accept-invitation'
+next:
+  text: 'Remove User'
+  link: '../remove-user'
+---
+
 # Reject Invitation
 
 Allows invited users to reject a group invitation.
