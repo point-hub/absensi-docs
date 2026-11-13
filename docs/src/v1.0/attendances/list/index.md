@@ -1,7 +1,7 @@
 ---
 prev:
-  text: 'Break End'
-  link: '../break-end'
+  text: 'Return'
+  link: '../return'
 next:
   text: 'Workhour Report'
   link: '/v1.0/workhour-report/about'

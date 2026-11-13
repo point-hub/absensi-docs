@@ -19,4 +19,4 @@ It explains not only what was built, but also why certain design and technical d
 | ADR | Topic |
 | --- | --- |
 | [ADR#001](./001) | Attendance workflow |
-| [ADR#002](./002) | Choose naming options for break from work for any reason |
+| [ADR#002](./002) | Choose naming options for leaves from work for any reason |

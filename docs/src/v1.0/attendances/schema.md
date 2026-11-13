@@ -21,17 +21,17 @@ Collection Name: `attendances`
 | `check_out_long` | Number | Longitude coordinate of the user's check-out location. |
 | `check_out_photo` | String | URL or path of the photo captured during check-out. |
 | `check_out_notes` | String | Additional notes provided by the user during check-out. |
-| `breaks` | Array (Object) | List of break periods recorded during the attendance session. Each object contains break start and end details. |
-| `breaks.break_start_at` | String | Date and time when the user started a break. |
-| `breaks.break_start_lat` | Number | Latitude coordinate of the user's location when the break started. |
-| `breaks.break_start_long` | Number | Longitude coordinate of the user's location when the break started. |
-| `breaks.break_start_photo` | String | URL or path of the photo captured when the break started. |
-| `breaks.break_start_notes` | String | Additional notes provided by the user when starting the break. |
-| `breaks.break_end_at` | String | Date and time when the user ended a break. |
-| `breaks.break_end_lat` | Number | Latitude coordinate of the user's location when the break ended. |
-| `breaks.break_end_long` | Number | Longitude coordinate of the user's location when the break ended. |
-| `breaks.break_end_photo` | String | URL or path of the photo captured when the break ended. |
-| `breaks.break_end_notes` | String | Additional notes provided by the user when ending the break. |
+| `leaves` | Array (Object) | List of leave periods recorded during the attendance session. Each object contains away and end details. |
+| `leaves.away_at` | String | Date and time when the user going away. |
+| `leaves.away_lat` | Number | Latitude coordinate of the user's location when the going away. |
+| `leaves.away_long` | Number | Longitude coordinate of the user's location when the going away. |
+| `leaves.away_photo` | String | URL or path of the photo captured when the going away. |
+| `leaves.away_notes` | String | Additional notes provided by the user when the going away. |
+| `leaves.return_at` | String | Date and time when the user returning. |
+| `leaves.return_lat` | Number | Latitude coordinate of the user's location when the user returning. |
+| `leaves.return_long` | Number | Longitude coordinate of the user's location when the user returning. |
+| `leaves.return_photo` | String | URL or path of the photo captured when the user returning. |
+| `leaves.return_notes` | String | Additional notes provided by the user when the user returning. |
 
 ## ERD
 

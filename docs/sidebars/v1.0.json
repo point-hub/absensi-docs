@@ -58,8 +58,8 @@
           { "text": "Schema", "link": "/v1.0/attendances/schema" },
           { "text": "Check In", "link": "/v1.0/attendances/check-in" },
           { "text": "Check Out", "link": "/v1.0/attendances/check-out" },
-          { "text": "Break Start", "link": "/v1.0/attendances/break-start" },
-          { "text": "Break End", "link": "/v1.0/attendances/break-end" },
+          { "text": "Away", "link": "/v1.0/attendances/away" },
+          { "text": "Return", "link": "/v1.0/attendances/return" },
           { "text": "List Attendances", "link": "/v1.0/attendances/list" }
         ]
       },

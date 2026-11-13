@@ -1,6 +1,6 @@
 # Workhour Report
 
-Generate workhour reports showing each user’s working duration, break durations and net working time.
+Generate workhour reports showing each user’s working duration, leave durations and net working time.
 
 ## Workhour Report Requirements
 
@@ -13,9 +13,9 @@ The workhour report must include the following fields:
 | User | The employee's name. |
 | Check In | The employee's check-in time. |
 | Check Out | The employee's check-out time. |
-| Working Duration | The duration between check-in and check-out, excluding no breaks. |
-| Break Durations | The total duration of all breaks recorded on that date. |
-| Net Working Time | Working duration minus break duration. |
+| Working Duration | The duration between check-in and check-out, excluding no leaves. |
+| Leave Durations | The total duration of all leaves recorded on that date. |
+| Net Working Time | Working duration minus leave duration. |
 
 ### Reporting Rules
 
@@ -40,38 +40,38 @@ Example
 | --- | --- | --- | --- | --- |
 | 2026-01-01 | Thursday | 08:00 | 16:00 | 8 hours |
 
-#### 2. Break Durations
+#### 2. Leave Durations
 
-The total duration of all breaks recorded by the user during the day.
+The total duration of all leaves recorded by the user during the day.
 
 ```
-Break Durations = Σ (Break End − Break Start)
+Leave Durations = Σ (Return − Away)
 ```
 
 Example
 
-| # |	Break Start	| Break End |	Break Duration |
+| # |	Away	| Return |	Leave Duration |
 | --- | --- | --- | --- |
 | 1 | 10:00 | 10:15 | 0.25 hours |
 | 2 | 12:00 | 13:00 | 1 hours |
 | 3 | 15:00 | 15:15 | 0.25 hours |
-| | | Break Durations | 1.5 hours |
+| | | Leave Durations | 1.5 hours |
 
 #### 3. Net Working Time
 
-The working duration minus the total break duration.
+The working duration minus the total leave duration.
 
 ```
-Net Working Time = Working Duration − Break Durations
+Net Working Time = Working Duration − Leave Durations
 ```
 
-| Date | Day | User | Check In | Check Out | Working Duration | Break Durations | Net Working Time |
+| Date | Day | User | Check In | Check Out | Working Duration | Leave Durations | Net Working Time |
 | --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
 | 2026-01-01 | Thursday | John Doe | 08:00 | 16:00 | 8.0 | 1.5 | 6.5 |
 
 ### Report Data Example
 
-| Date | Day | User | Check In | Check Out | Working Duration | Break Durations | Net Working Time |
+| Date | Day | User | Check In | Check Out | Working Duration | Leave Durations | Net Working Time |
 | --- | --- | --- | :---: | :---: | :---: | :---: | :---: |
 | 2026-01-01 | Thursday | John Doe | 08:00 | 16:00 | 8.0 | 1.5 | 6.5 |
 | 2026-01-02 | Friday | John Doe | 08:05 | 17:00 | 8.92 | 1.0 | 7.92 |

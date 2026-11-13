@@ -15,8 +15,8 @@ This page documents the application's page hierarchy, including each page's URL 
 │        └── edit 
 ├── check-in 
 ├── check-out 
-├── break-start
-├── break-end
+├── away
+├── return
 ├── workhour-report
 └── attendance-report
 ```
@@ -35,8 +35,8 @@ This page documents the application's page hierarchy, including each page's URL 
 | `/groups/:id/edit` | Update Group Page |
 | `/check-in` | Check In Page |
 | `/check-out` | Check Out Page |
-| `/break-start` | Break Start Page |
-| `/break-end` | Break End Page |
+| `/away` | Away Page |
+| `/return` | Return Page |
 | `/workhour-report` | Workhour Report Page |
 | `/attendance-report` | Attendance Report Page |
 
