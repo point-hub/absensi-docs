@@ -62,8 +62,8 @@ dynamicSidebar['/'] = [
 
 export default withMermaid({
   lang: 'en-US',
-  title: 'Developer Portal',
-  description: 'Template for Web documentation',
+  title: 'Absensi Docs',
+  description: 'Absensi Docs',
   cleanUrls: true,
   srcDir: './src',
 
